@@ -59,3 +59,20 @@
     transition: ease 2s;
     display: none;
 }
+
+@media (max-width: 380px){
+    .header_container{
+        font-size: 32px;
+    }
+    .main_container{
+        font-size: 135px;
+        
+        line-height: 160px;
+    }
+    .first_flag, .second_flag{
+        height: 130px;
+    }
+    .first_flag:hover, .second_flag:hover{
+        transform: scale(1.2);
+    }
+}
