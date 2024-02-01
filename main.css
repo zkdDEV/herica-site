@@ -60,7 +60,7 @@
     display: none;
 }
 
-@media (max-width: 410px){
+@media (max-width: 760px){
     .header_container{
         font-size: 32px;
     }
